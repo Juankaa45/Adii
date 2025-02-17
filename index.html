@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Adii - Te Amo</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #ffcccb;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            margin: 0;
+            overflow: hidden;
+            height: 100%;
+        }
+        h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+            color: #ff69b4;
+        }
+        .message {
+            font-size: 1.2em;
+            line-height: 1.6;
+            margin: 20px 0;
+            color: #fff;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.6);
+            border: 5px solid #ff69b4;
+            border-radius: 10px;
+        }
+        .photo {
+            width: 250px;
+            height: auto;
+            margin: 10px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+        .photos {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-top: 20px;
+            gap: 15px;
+        }
+        .background {
+            background-image: url('background.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            padding: 50px 0;
+            border-radius: 15px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+        }
+        audio {
+            margin-top: 20px;
+            border-radius: 5px;
+            width: 100%;
+            max-width: 400px;
+        }
+        .heart {
+            position: absolute;
+            top: -50px;
+            font-size: 30px;
+            color: red;
+            animation: fall 5s infinite;
+        }
+
+        @keyframes fall {
+            0% {
+                top: -50px;
+                opacity: 1;
+            }
+            100% {
+                top: 100%;
+                opacity: 0;
+            }
+        }
+
+        /* Desincronización de corazones */
+        .heart:nth-child(1) {
+            left: 10%;
+            animation-delay: 0s;
+        }
+        .heart:nth-child(2) {
+            left: 25%;
+            animation-delay: 1s;
+        }
+        .heart:nth-child(3) {
+            left: 40%;
+            animation-delay: 2s;
+        }
+        .heart:nth-child(4) {
+            left: 55%;
+            animation-delay: 3s;
+        }
+        .heart:nth-child(5) {
+            left: 70%;
+            animation-delay: 4s;
+        }
+        .heart:nth-child(6) {
+            left: 85%;
+            animation-delay: 5s;
+        }
+        .heart:nth-child(7) {
+            left: 15%;
+            animation-delay: 2.5s;
+        }
+        .heart:nth-child(8) {
+            left: 30%;
+            animation-delay: 3.5s;
+        }
+        .heart:nth-child(9) {
+            left: 45%;
+            animation-delay: 4.5s;
+        }
+        .heart:nth-child(10) {
+            left: 60%;
+            animation-delay: 1.5s;
+        }
+
+        /* Hacer que la página sea deslizante en dispositivos móviles */
+        .content {
+            overflow-y: auto;
+            max-height: 100vh;
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <div class="background">
+            <h1>Mi Adii - Te Amo</h1>
+            <p class="message">
+                Mi hermosa <strong>Adii</strong>, desde el primer día que cruzaste mi camino, mi vida cambió por completo. Lo que siento por ti es algo que no puedo describir con palabras, porque lo que hay en mi corazón es tan grande, tan puro y tan profundo que todo lo que diga parece pequeño en comparación. Eres el sol que ilumina mi día, la estrella que guía mis noches, y la razón por la que sonrío cada vez que te pienso. No hay nada más hermoso que verte sonreír, no hay nada más perfecto que sentir tu presencia a mi lado. Cada momento que paso contigo es un regalo que atesoro con todo mi ser. La manera en que tu risa llena el aire, cómo tus ojos brillan cuando hablas de tus sueños, todo en ti me hace amarte más y más cada día. Eres tan <strong>única</strong>, tan <strong>especial</strong>, tan perfecta tal como eres. No hay nadie en este mundo que se compare a ti, y eso me hace sentir increíblemente afortunado de ser quien está a tu lado. Tú me haces sentir completo, me haces ver la vida con otros ojos, y todo lo que quiero es pasar cada segundo contigo, porque cada segundo a tu lado es el mejor de mi vida. La forma en que me entiendes, cómo sabes cuando necesito una palabra de aliento, o cuando un simple abrazo puede calmar todas mis dudas y miedos. Todo lo que haces, cada pequeño gesto, tiene un significado profundo en mi corazón. Cuando pienso en el futuro, solo puedo verte a ti a mi lado. Eres la razón por la que mis sueños siguen vivos, la fuerza que me impulsa a seguir adelante, y el amor que me llena de esperanza. No hay nada que desee más en esta vida que verte feliz, ver cómo tus sueños se hacen realidad, y estar contigo en cada paso que des. Lo que siento por ti no tiene límites, no tiene fin, es un amor eterno, más allá de lo que se puede entender. Me haces sentir amado, importante, y me das la paz que nunca supe que necesitaba. Eres todo lo que quiero, todo lo que necesito, mi razón para seguir luchando, mi razón para ser mejor, mi razón para vivir. No importa lo que pase, no importa las dificultades que se presenten, siempre estaré aquí para ti, siempre seré tu apoyo, tu refugio y tu amor eterno. Porque lo que siento por ti es más grande que cualquier obstáculo, más fuerte que cualquier adversidad, y más profundo que cualquier océano. Mi <strong>Adii</strong>, te amo más de lo que las palabras pueden expresar, y aunque intente mil veces decirlo, siempre me quedará corto, porque lo que siento por ti es infinito, es un amor que trasciende, que no conoce límites. Eres mi todo, mi mundo entero.
+            </p>
+            <div class="photos">
+                <img src="https://github.com/Juankaa45/Adii/blob/main/foto1.jpg" alt="Adriana 1">
+                <img src="https://github.com/Juankaa45/Adii/blob/main/foto2.jpg" alt="Adriana 2">
+                <img src="https://github.com/Juankaa45/Adii/blob/main/foto3.jpg" alt="Adriana 3">
+                <img src="https://github.com/Juankaa45/Adii/blob/main/foto4.jpg" alt="Adriana 4">
+            </div>
+
+            <!-- Audio con mensaje -->
+            <p style="font-size: 1.2em; color: 	#000000;">Te dedico esta canción, que refleja todo lo que siento por ti.</p>
+            <audio autoplay loop>
+                <source src="https://github.com/Juankaa45/Adii/blob/main/LabiosRotos.mp3" type="audio/mp3">
+                Tu navegador no soporta el audio.
+            </audio>
+        </div>
+
+        <!-- Corazones cayendo -->
+        <div class="heart">❤️</div>
+        <div class="heart">❤️</div>
+        <div class="heart">❤️</div>
+        <div class="heart">❤️</div>
+        <div class="heart">❤️</div>
+        <div class="heart">❤️</div>
+        <div class="heart">❤️</div>
+        <div class="heart">❤️</div>
+        <div class="heart">❤️</div>
+        <div class="heart">❤️</div>
+    </div>
+</body>
+</html
